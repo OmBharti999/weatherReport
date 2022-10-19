@@ -1,0 +1,26 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.App h1 {
+  border-bottom: 2px solid black;
+  padding: 5vw;
+  margin: 5vw;
+  box-shadow: 3px 3px 19px;
+}
+
+input {
+  margin-top: 10vh;
+  border: none;
+  box-shadow: 3px 2px 3px;
+}
+
+button {
+  transition: all 0.51s;
+}
+button:hover {
+  transform: scale(1.3);
+  background: brown;
+  color: antiquewhite;
+}
