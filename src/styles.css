@@ -25,6 +25,6 @@ button {
 }
 button:hover {
   transform: scale(1.3);
-  background: brown;
-  color: antiquewhite;
+  background: #251B37;
+  color: #FFECEF;
 }
