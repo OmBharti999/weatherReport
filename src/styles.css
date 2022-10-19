@@ -5,18 +5,20 @@
 
 .App .h1 {
   border-bottom: 2px solid black;
-  padding: 10%;
-  margin: 8%;
+  padding: 1%;
+  margin: 2%;
   box-shadow: 3px 3px 19px;
 }
 
 input {
   margin-top: 10vh;
   border: none;
+   padding: 15px;
   box-shadow: 3px 2px 3px;
 }
 
 button {
+   padding: 15px;
   transition: all 0.51s;
 }
 button:hover {
