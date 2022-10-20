@@ -34,7 +34,7 @@ export default function Input() {
     <div className="App">
       <input value={inp} placeholder="Enter city here" onChange={onChangeRn} />
       <button onClick={settingUpCityName}>search</button>
-      {true ? <Card data={data} /> : <div>Welcome</div>}
+      {cityName ? <Card data={data} /> : <div>Welcome</div>}
     </div>
   );
 }
