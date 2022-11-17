@@ -1,0 +1,15 @@
+.error-conta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.error {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  border: 3px solid salmon;
+  /* max-width: 60%; */
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 7px 7px 7px black;
+}
